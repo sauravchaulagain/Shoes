@@ -6,10 +6,8 @@ import 'package:shoes/common/utils/size_utils.dart';
 
 class ProductDetailWidget extends StatefulWidget {
   final ShoeProduct data;
-  final Color color;
 
-  const ProductDetailWidget({Key? key, required this.data, required this.color})
-      : super(key: key);
+  const ProductDetailWidget({Key? key, required this.data}) : super(key: key);
 
   @override
   _ProductDetailWidgetState createState() => _ProductDetailWidgetState();
@@ -41,8 +39,8 @@ class _ProductDetailWidgetState extends State<ProductDetailWidget>
   void _triggerTextAnimation() {
     Future.delayed(const Duration(seconds: 1), () {
       _padding = 0;
+      setState(() {});
     });
-    setState(() {});
   }
 
   @override
@@ -57,7 +55,7 @@ class _ProductDetailWidgetState extends State<ProductDetailWidget>
                   margin: const EdgeInsets.only(left: 60),
                   height: 360,
                   decoration: BoxDecoration(
-                    color: widget.color,
+                    color: widget.data.color,
                     borderRadius: const BorderRadius.only(
                       bottomLeft: Radius.circular(600),
                     ),
@@ -67,10 +65,12 @@ class _ProductDetailWidgetState extends State<ProductDetailWidget>
                   animation: _animation,
                   builder: (context, child) {
                     return Transform.rotate(
+                      alignment: Alignment.center,
                       angle: _animation.value * 3.14 / 180,
                       child: ClipRRect(
                         child: Image.asset(
                           widget.data.image,
+                          alignment: Alignment.center,
                           height: 360,
                         ),
                       ),
@@ -81,7 +81,7 @@ class _ProductDetailWidgetState extends State<ProductDetailWidget>
             ),
             AnimatedContainer(
               margin: EdgeInsets.only(top: _padding),
-              duration: const Duration(seconds: 1),
+              duration: const Duration(milliseconds: 700),
               child: Padding(
                 padding: const EdgeInsets.all(12.0),
                 child: Column(

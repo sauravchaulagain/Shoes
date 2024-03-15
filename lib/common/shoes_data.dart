@@ -1,6 +1,9 @@
+import 'package:flutter/material.dart';
+
 class ShoesData {
   final shoesData = [
     ShoeProduct(
+      color: Colors.green,
       image: "assets/images/1.png",
       id: 17,
       brand: "Nike",
@@ -50,6 +53,7 @@ class ShoesData {
       ],
     ),
     ShoeProduct(
+      color: const Color(0xFFA4C9D2),
       image: "assets/images/2.png",
       id: 5,
       brand: "The North Face",
@@ -103,6 +107,7 @@ class ShoesData {
       ],
     ),
     ShoeProduct(
+      color: Colors.blue,
       image: "assets/images/3.png",
       id: 6,
       brand: "Columbia",
@@ -152,6 +157,7 @@ class ShoesData {
       ],
     ),
     ShoeProduct(
+      color: const Color(0xFF622036),
       image: "assets/images/4.png",
       id: 16,
       brand: "Adidas",
@@ -200,11 +206,162 @@ class ShoesData {
         "Waterproof Gore-Tex membrane"
       ],
     ),
+    ShoeProduct(
+      color: const Color(0xFF43885B),
+      image: "assets/images/5.png",
+      id: 17,
+      brand: "Nike",
+      title: "Air Zoom Pegasus 38 Road Running Shoes - Women's",
+      shortDesc: "Responsive and versatile for everyday runs.",
+      desc:
+          "The Nike Air Zoom Pegasus 38 road running shoes for women offer responsive cushioning and versatility for everyday runs. Featuring a breathable engineered mesh upper with Flywire technology, these shoes provide a secure and adaptive fit. The Zoom Air units in the forefoot and heel provide responsive cushioning, while the Cushlon foam midsole offers soft and supportive comfort. The durable rubber outsole with waffle pattern delivers traction on various surfaces. These road running shoes are ideal for women seeking responsive and versatile footwear for their daily runs.",
+      weight: "283g (per shoe)",
+      material:
+          "Engineered mesh upper with Flywire technology, Cushlon foam midsole, Rubber outsole",
+      warranty: "1 year",
+      price: "\$119.99",
+      sizeOptions: [
+        "5",
+        "5.5",
+        "6",
+        "6.5",
+        "7",
+        "7.5",
+        "8",
+        "8.5",
+        "9",
+        "9.5",
+        "10"
+      ],
+      gender: "Women's",
+      width: "Standard",
+      soleMaterial: "Rubber",
+      closureType: "Lace-up",
+      insole: "Cushlon foam",
+      liningMaterial: "Mesh lining",
+      toeStyle: "Round toe",
+      heelHeight: "1 inch",
+      technologyFeatures: ["Zoom Air", "Flywire"],
+      suitableTerrain: ["Road", "Track"],
+      activityType: "Running",
+      archType: "Neutral",
+      weightPerPair: "566g",
+      countryOfManufacture: "Vietnam",
+      careInstructions: "Spot clean with mild detergent, air dry",
+      certifications: [],
+      packaging: "Recyclable cardboard box",
+      recommendedUse: ["Road Running", "Track Running", "Indoor Activities"],
+      additionalFeatures: [
+        "Breathable engineered mesh upper",
+        "Responsive Zoom Air cushioning"
+      ],
+    ),
+    ShoeProduct(
+      color: const Color(0xFFA4243B),
+      image: "assets/images/6.png",
+      id: 17,
+      brand: "Nike",
+      title: "Air Zoom Pegasus 38 Road Running Shoes - Women's",
+      shortDesc: "Responsive and versatile for everyday runs.",
+      desc:
+          "The Nike Air Zoom Pegasus 38 road running shoes for women offer responsive cushioning and versatility for everyday runs. Featuring a breathable engineered mesh upper with Flywire technology, these shoes provide a secure and adaptive fit. The Zoom Air units in the forefoot and heel provide responsive cushioning, while the Cushlon foam midsole offers soft and supportive comfort. The durable rubber outsole with waffle pattern delivers traction on various surfaces. These road running shoes are ideal for women seeking responsive and versatile footwear for their daily runs.",
+      weight: "283g (per shoe)",
+      material:
+          "Engineered mesh upper with Flywire technology, Cushlon foam midsole, Rubber outsole",
+      warranty: "1 year",
+      price: "\$119.99",
+      sizeOptions: [
+        "5",
+        "5.5",
+        "6",
+        "6.5",
+        "7",
+        "7.5",
+        "8",
+        "8.5",
+        "9",
+        "9.5",
+        "10"
+      ],
+      gender: "Women's",
+      width: "Standard",
+      soleMaterial: "Rubber",
+      closureType: "Lace-up",
+      insole: "Cushlon foam",
+      liningMaterial: "Mesh lining",
+      toeStyle: "Round toe",
+      heelHeight: "1 inch",
+      technologyFeatures: ["Zoom Air", "Flywire"],
+      suitableTerrain: ["Road", "Track"],
+      activityType: "Running",
+      archType: "Neutral",
+      weightPerPair: "566g",
+      countryOfManufacture: "Vietnam",
+      careInstructions: "Spot clean with mild detergent, air dry",
+      certifications: [],
+      packaging: "Recyclable cardboard box",
+      recommendedUse: ["Road Running", "Track Running", "Indoor Activities"],
+      additionalFeatures: [
+        "Breathable engineered mesh upper",
+        "Responsive Zoom Air cushioning"
+      ],
+    ),
+    ShoeProduct(
+      color: const Color(0xFFCA761E),
+      image: "assets/images/7.png",
+      id: 17,
+      brand: "Nike",
+      title: "Air Zoom Pegasus 38 Road Running Shoes - Women's",
+      shortDesc: "Responsive and versatile for everyday runs.",
+      desc:
+          "The Nike Air Zoom Pegasus 38 road running shoes for women offer responsive cushioning and versatility for everyday runs. Featuring a breathable engineered mesh upper with Flywire technology, these shoes provide a secure and adaptive fit. The Zoom Air units in the forefoot and heel provide responsive cushioning, while the Cushlon foam midsole offers soft and supportive comfort. The durable rubber outsole with waffle pattern delivers traction on various surfaces. These road running shoes are ideal for women seeking responsive and versatile footwear for their daily runs.",
+      weight: "283g (per shoe)",
+      material:
+          "Engineered mesh upper with Flywire technology, Cushlon foam midsole, Rubber outsole",
+      warranty: "1 year",
+      price: "\$119.99",
+      sizeOptions: [
+        "5",
+        "5.5",
+        "6",
+        "6.5",
+        "7",
+        "7.5",
+        "8",
+        "8.5",
+        "9",
+        "9.5",
+        "10"
+      ],
+      gender: "Women's",
+      width: "Standard",
+      soleMaterial: "Rubber",
+      closureType: "Lace-up",
+      insole: "Cushlon foam",
+      liningMaterial: "Mesh lining",
+      toeStyle: "Round toe",
+      heelHeight: "1 inch",
+      technologyFeatures: ["Zoom Air", "Flywire"],
+      suitableTerrain: ["Road", "Track"],
+      activityType: "Running",
+      archType: "Neutral",
+      weightPerPair: "566g",
+      countryOfManufacture: "Vietnam",
+      careInstructions: "Spot clean with mild detergent, air dry",
+      certifications: [],
+      packaging: "Recyclable cardboard box",
+      recommendedUse: ["Road Running", "Track Running", "Indoor Activities"],
+      additionalFeatures: [
+        "Breathable engineered mesh upper",
+        "Responsive Zoom Air cushioning"
+      ],
+    ),
   ];
 }
 
 class ShoeProduct {
   final String image;
+  final Color color;
   final int id;
   final String brand;
   final String title;
@@ -237,6 +394,7 @@ class ShoeProduct {
 
   ShoeProduct({
     required this.id,
+    required this.color,
     required this.brand,
     required this.image,
     required this.title,
