@@ -1,4 +1,0 @@
-#Fri Mar 15 21:53:42 NPT 2024
-base.0=/home/saurav/ismart/project_folder/flutter_project/shoes/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
