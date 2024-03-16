@@ -70,7 +70,7 @@ class _ProductDetailWidgetState extends State<ProductDetailWidget>
               stretch: true,
               pinned: true,
               automaticallyImplyLeading: false,
-              backgroundColor: colorTheme,
+              backgroundColor: colorTheme ?? widget.data.color,
               expandedHeight: 360,
               flexibleSpace: FlexibleSpaceBar(
                 stretchModes: const [StretchMode.blurBackground],
@@ -253,8 +253,8 @@ class _ProductDetailWidgetState extends State<ProductDetailWidget>
                                   borderRadius: BorderRadius.circular(8),
                                   border: Border.all(
                                       color: colorTheme ?? widget.data.color),
-                                  color: colorTheme ??
-                                      widget.data.color.withOpacity(
+                                  color: (colorTheme ?? widget.data.color)
+                                      .withOpacity(
                                           sizeIndex == index ? 0.5 : 0.1)),
                               padding: const EdgeInsets.all(12),
                               child: Text(widget.data.sizeOptions[index]),
