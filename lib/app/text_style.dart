@@ -112,8 +112,8 @@ class PoppinsTextStyles {
     height: 24 / 16,
     letterSpacing: 0,
     fontFamily: fontFamily,
-    color: gray700,
-    fontWeight: FontWeight.w400,
+    color: CustomTheme.darkColor,
+    fontWeight: FontWeight.w500,
   );
 
   // Body medium

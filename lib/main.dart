@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shoes/common/navigation/navigation_service.dart';
 import 'package:shoes/features/dashboard/home_page.dart';
 
 void main() {
@@ -11,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      navigatorKey: NavigationService.navigationKey,
       debugShowCheckedModeBanner: false,
       home: HomePage(),
     );

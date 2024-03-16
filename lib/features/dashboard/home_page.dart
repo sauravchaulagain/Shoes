@@ -1,6 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:shoes/app/text_style.dart';
+import 'package:shoes/common/navigation/navigation_service.dart';
 import 'package:shoes/common/shoes_data.dart';
 import 'package:shoes/common/theme.dart';
 import 'package:shoes/common/utils/size_utils.dart';
@@ -29,13 +30,9 @@ class HomePage extends StatelessWidget {
             itemCount: data.length,
             itemBuilder: (context, index, realIndex) => InkWell(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => ProductDetailWidget(
-                          data: data[index],
-                        ),
-                      ));
+                  NavigationService.push(
+                    target: ProductDetailWidget(data: data[index]),
+                  );
                 },
                 child: CarouselBoxDesign(data: data[index])),
             options: CarouselOptions(
@@ -57,13 +54,9 @@ class HomePage extends StatelessWidget {
               itemCount: data.length,
               itemBuilder: (context, index) => ListTile(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => ProductDetailWidget(
-                          data: data[index],
-                        ),
-                      ));
+                  NavigationService.push(
+                    target: ProductDetailWidget(data: data[index]),
+                  );
                 },
                 contentPadding: const EdgeInsets.all(12),
                 leading: Container(
