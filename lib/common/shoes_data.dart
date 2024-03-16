@@ -5,7 +5,7 @@ class ShoesData {
     ShoeProduct(
       color: Colors.green,
       image: "assets/images/1.png",
-      id: 17,
+      id: 111,
       brand: "Nike",
       title: "Air Zoom Pegasus 38 Road Running Shoes - Women's",
       shortDesc: "Responsive and versatile for everyday runs.",
@@ -55,7 +55,7 @@ class ShoesData {
     ShoeProduct(
       color: const Color(0xFFA4C9D2),
       image: "assets/images/2.png",
-      id: 5,
+      id: 222,
       brand: "The North Face",
       title: "Ultra Fastpack IV Futurelight Hiking Shoes - Women's",
       shortDesc: "Lightweight and breathable for fast-paced hikes.",
@@ -109,7 +109,7 @@ class ShoesData {
     ShoeProduct(
       color: Colors.blue,
       image: "assets/images/3.png",
-      id: 6,
+      id: 333,
       brand: "Columbia",
       title: "Peakfreak X2 Outdry Hiking Shoes - Men's",
       shortDesc: "Durable and versatile for all-day comfort on the trails.",
@@ -159,7 +159,7 @@ class ShoesData {
     ShoeProduct(
       color: const Color(0xFF622036),
       image: "assets/images/4.png",
-      id: 16,
+      id: 444,
       brand: "Adidas",
       title: "Terrex Swift R3 Gore-Tex Hiking Shoes - Men's",
       shortDesc: "Waterproof and agile for fast-paced hikes.",
@@ -209,7 +209,7 @@ class ShoesData {
     ShoeProduct(
       color: const Color(0xFF43885B),
       image: "assets/images/5.png",
-      id: 17,
+      id: 555,
       brand: "Nike",
       title: "Air Zoom Pegasus 38 Road Running Shoes - Women's",
       shortDesc: "Responsive and versatile for everyday runs.",
@@ -259,7 +259,7 @@ class ShoesData {
     ShoeProduct(
       color: const Color(0xFFA4243B),
       image: "assets/images/6.png",
-      id: 17,
+      id: 666,
       brand: "Nike",
       title: "Air Zoom Pegasus 38 Road Running Shoes - Women's",
       shortDesc: "Responsive and versatile for everyday runs.",
@@ -309,7 +309,7 @@ class ShoesData {
     ShoeProduct(
       color: const Color(0xFFCA761E),
       image: "assets/images/7.png",
-      id: 17,
+      id: 777,
       brand: "Nike",
       title: "Air Zoom Pegasus 38 Road Running Shoes - Women's",
       shortDesc: "Responsive and versatile for everyday runs.",

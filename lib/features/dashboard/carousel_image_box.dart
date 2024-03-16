@@ -48,9 +48,12 @@ class CarouselBoxDesign extends StatelessWidget {
           Center(
             child: Transform.rotate(
               angle: 330 * (3.14 / 180),
-              child: Image.asset(
-                data.image,
-                height: 120.hp,
+              child: Hero(
+                tag: "tag-${data.id}",
+                child: Image.asset(
+                  data.image,
+                  height: 120.hp,
+                ),
               ),
             ),
           ),
